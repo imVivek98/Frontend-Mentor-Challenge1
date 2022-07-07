@@ -1,0 +1,135 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+img{
+  float: left;
+  margin-right: 5%;
+  width: 300px;
+  height: 400px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius: 10px;
+
+
+}
+
+p{
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: lighter;
+  text-align: left;
+  padding-right: 3.75rem;
+
+}
+
+.card{
+  width: 37.5rem;
+  height: 25rem;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top:25%;
+  right: 30%;
+}
+
+
+.attribution{
+  position: absolute;
+  bottom: 2px;
+  right: 1px;
+  color: hsl(228, 12%, 48%);
+}
+
+.foot{
+  text-decoration: none;
+}
+
+.Diff{
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  padding: 30px 0 0 0;
+  font-size: small;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+
+}
+
+.main{
+  font-family: 'Fraunces', serif;
+  text-align: left;
+  padding-right: 3.125rem;
+  line-height: 1;
+
+}
+
+.cost{
+  font-family: "Fraunces" , serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 1.65rem;
+}
+
+.old-cost{
+  text-decoration: line-through;
+  font-size: .65rem;
+  position: relative;
+  left: 8rem;
+  bottom: 2.5rem;
+}
+
+.pricing{
+  display: inline;
+}
+
+.button-text{
+  color: white;
+  text-align: center;
+  padding: 15px 10px 10px 15px;
+}
+
+
+#btn {
+  background: hsl(158, 36%, 37%);
+  background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Georgia;
+  color: white;
+  font-size: 26px;
+  padding: 8px 25px 8px 45px;
+  text-decoration: none;
+  font-size: small;
+  font-style:center;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border-width: 0;
+  position: relative;
+  bottom: 1.5rem;
+
+
+
+}
+
+#btn:hover {
+  background: hsl(30, 38%, 92%);
+  background-image: -webkit-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+  background-image: -moz-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+  background-image: -ms-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+  background-image: -o-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+  background-image: linear-gradient(to bottom, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+  text-decoration: none;
+}
+
+#Cart-icon{
+  position: relative;
+  right: 6rem;
+  font-size: small;
+
+}
